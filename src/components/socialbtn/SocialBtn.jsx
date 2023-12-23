@@ -7,7 +7,7 @@ const SocialBtn = ({ faIcon, faSize, link, displayText }) => {
     return (
       <a href={link} target="_blank" rel="noopener noreferrer" className="social-btn">
         <i className={iconClassName}></i>
-        {displayText}
+        <span className="btn-text">{displayText}</span>
       </a>
     );
   };
