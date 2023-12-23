@@ -7,7 +7,8 @@ export default function TopBar() {
     <div className='top'>
       <div className="topLeft">
         <SocialBtn 
-          faIcon="fa-brands fa-facebook fa-2xl"
+          faIcon="facebook"
+          faSize="2xl"
           link="https:/www.facebook.com/SWAN.WSM/"
           displayText="Facebook"
         />
@@ -38,7 +39,8 @@ export default function TopBar() {
       </div>
       <div className="topRight">
       <SocialBtn 
-          faIcon="fa-brands fa-twitter fa-2xl"
+          faIcon="twitter"
+          faSize="2xl"
           link="https:/www.twitter.com/"
           displayText="Twitter"
         />

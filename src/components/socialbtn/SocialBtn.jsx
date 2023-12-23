@@ -1,10 +1,12 @@
 import "./socialbtn.css"
 
 
-const SocialBtn = ({ faIcon, link, displayText }) => {
+const SocialBtn = ({ faIcon, faSize, link, displayText }) => {
+  const iconClassName = `fa-brands fa-${faIcon} fa-${faSize}`;
+
     return (
       <a href={link} target="_blank" rel="noopener noreferrer" className="social-btn">
-        <i className={faIcon}></i>
+        <i className={iconClassName}></i>
         {displayText}
       </a>
     );
