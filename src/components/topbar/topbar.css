@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 .top {
     width: 100%;
     height: 50px;
@@ -31,10 +35,4 @@
     font-size: 18px;
     font-weight: 300;
     cursor: pointer;
-}
-
-.fa-brands {
-    display: flex;
-    margin-right: 10px;
-    align-items: center;
 }
