@@ -9,7 +9,9 @@
 }
 
 .topLeft, .topRight {
+    display: flex;
     flex: 3;
+    justify-content: center;
 }
 
 .topCenter {
@@ -29,4 +31,10 @@
     font-size: 18px;
     font-weight: 300;
     cursor: pointer;
+}
+
+.fa-brands {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
 }

@@ -4,7 +4,12 @@ import "./topbar.css"
 export default function TopBar() {
   return (
     <div className='top'>
-        <div className="topLeft">Facebook</div>
+        <div className="topLeft">
+          <i className="fa-brands fa-facebook fa-2xl"></i>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+            Facebook
+          </a>
+        </div>
         <div className="topCenter">
             <ul className="topList">
                 <li className="topListItem">
@@ -29,7 +34,12 @@ export default function TopBar() {
                 </li>
             </ul>
         </div>
-        <div className="topRight">Twitter</div>
+        <div className="topRight">
+        <i className="fa-brands fa-twitter fa-2xl"></i>
+          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+            Twitter
+          </a>
+        </div>
     </div>
   )
 }
