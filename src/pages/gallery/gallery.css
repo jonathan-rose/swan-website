@@ -1,0 +1,19 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.image-gallery {
+    margin-top: 20px;
+}
+
+/* .image-gallery-content {
+
+} */
+
+.image-gallery-image {
+    min-height: 75vh !important;
+    max-height: 75vh !important;
+}
+
+/* .image-gallery-slides {
+    margin-left: 10%;
+    margin-right: 10%;
+} */
