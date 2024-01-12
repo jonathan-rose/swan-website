@@ -3,10 +3,8 @@ import "./header.css"
 export default function Header() {
   return (
     <div className='header'>
-        <div className="headerTitles">
-          <span className="headerTitle">South West Activity Network</span>
-        </div>
-        <img className="headerImg" src="/images/weston1.jpg" alt="" />
+      <img className="headerImg" src="/images/logo/logo.png" alt="" />
+      <h1 className="headerText">South West Activity Network</h1>
     </div>
   )
 }

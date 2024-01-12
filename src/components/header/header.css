@@ -1,15 +1,25 @@
 .header {
-    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
 }
 
-.headerTitles {
+.headerImg {
+    margin-right: 20px;
+}
+
+.headerText {
+    width: 20%;
+    text-align: center;
+}
+
+/* .headerTitle {
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.headerTitle {
-    position: absolute;
     top: 10%;
     font-size: 50px;
 }
@@ -19,4 +29,4 @@
     height: 450px;
     margin-top: 80px;
     object-fit: cover;
-}
+} */
