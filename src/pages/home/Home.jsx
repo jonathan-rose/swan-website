@@ -1,11 +1,11 @@
-import Header from "../../components/header/Header"
 import './home.css'
+import Logo from '../../components/logo/Logo'
 
 export default function Home() {
   return (
     <>
-        <Header/>
         <div className="home">
+          Test text please ignore.
         </div>
     </>
   )
