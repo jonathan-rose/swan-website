@@ -3,10 +3,6 @@
     font-family: sans-serif;
 }
 
-.top .logo {
-    height: 100px;
-}
-
 .top {
     display: flex;
     flex-direction: row;
@@ -14,11 +10,21 @@
     width: 100%;
     height: auto;
     background-color: #cda9ee;
-    position: sticky;
     top: 0;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 10px;
     justify-content: space-around;
+    position: relative;
+}
+
+.top .logo {
+    height: 100px;
+}
+
+.topCenter {
+    flex: 1;
+    max-width: 50%;
 }
 
 .topList {
@@ -29,8 +35,10 @@
 }
 
 .topListItem {
+    flex: 2;
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 300;
+    text-align: center;
 }
