@@ -27,6 +27,11 @@
     max-width: 50%;
 }
 
+.topRight {
+    width: 100px;
+    text-align: center;
+}
+
 .topList {
     display: flex;
     margin: 0;
@@ -36,9 +41,23 @@
 
 .topListItem {
     flex: 2;
-    margin-left: 10px;
-    margin-right: 10px;
     font-size: 22px;
     font-weight: 300;
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .topList {
+        display: block;
+    }
+
+    .topListItem {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .topListItem {
+        font-size: 30px;
+    }
 }

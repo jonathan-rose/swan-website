@@ -36,9 +36,10 @@ export default function Header() {
       <div className="topRight">
       <SocialBtn 
           faIcon="facebook"
-          faSize="2xl"
+          faSize="5x"
           link="https:/www.facebook.com/SWAN.WSM/"
           displayText="Facebook"
+          showText={false}
         />
       </div>
     </div>
