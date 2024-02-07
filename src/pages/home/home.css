@@ -1,11 +1,16 @@
 .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .homeBanner {
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: var(--SWAN-vlight);
     height: calc(100vh - var(--headerHeight));
+    width: 100vw;
 }
 
 .home img {
