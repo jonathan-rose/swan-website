@@ -1,3 +1,10 @@
+:root {
+    --SWAN-dark: #6b00cb;
+    --SWAN-medium: #984adc;
+    --SWAN-light: #b77ee5;
+    --SWAN-vlight: #c296eb;
+}
+
 body {
     margin: 0;
 }

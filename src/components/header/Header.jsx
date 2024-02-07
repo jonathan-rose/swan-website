@@ -5,7 +5,7 @@ import SocialBtn from "../socialbtn/SocialBtn"
 
 export default function Header() {
   return (
-    <div className='top'>
+    <div className='header' id='header'>
       <div className="topLeft">
         <Logo></Logo>
       </div>
