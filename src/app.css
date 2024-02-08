@@ -1,8 +1,8 @@
 :root {
-    --SWAN-dark: #6b00cb;
-    --SWAN-medium: #984adc;
-    --SWAN-light: #b77ee5;
-    --SWAN-vlight: #c296eb;
+    --SWAN-dark: 107, 0, 203;
+    --SWAN-medium: 152, 74, 220;
+    --SWAN-light: 183, 126, 229;
+    --SWAN-vlight: 194, 150, 235;
 }
 
 body {

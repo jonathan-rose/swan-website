@@ -1,5 +1,5 @@
 .header a {
-    color: var(--SWAN-dark);
+    color: rgb(var(--SWAN-dark), 0.9);
     text-decoration: none;
     font-family: sans-serif;
 }
@@ -10,7 +10,7 @@
     align-items: center;
     width: 100%;
     height: auto;
-    background-color: var(--SWAN-light);
+    background-color: rgba(var(--SWAN-light), 0.7);
     top: 0;
     padding-top: 10px;
     padding-bottom: 10px;

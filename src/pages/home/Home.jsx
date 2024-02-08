@@ -13,10 +13,10 @@ export default function Home() {
     <>
       <div className="home">
         <div className="homeBanner">
-          <img src="../../images/content/art1.jpg" />
+          <img src="../../images/content/park1.jpg"/>
           <div class="heading-container">
-            <h1> We work with children, young people and families.</h1>
-            <h1> Together we can have a bigger impact.</h1>
+            <h1 id="work"> We work with children, young people and families.</h1>
+            <h1 id="impact"> Together we can have a bigger impact.</h1>
           </div>
         </div>
       </div>
