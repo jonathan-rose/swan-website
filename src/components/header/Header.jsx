@@ -22,6 +22,11 @@ export default function Header() {
             </Link>
           </li>
           <li className="topListItem">
+            <Link className="link" to="/video">
+              Video
+            </Link>
+          </li>
+          <li className="topListItem">
             <Link className="link" to="/gallery">
               Gallery
             </Link>
