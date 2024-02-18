@@ -1,0 +1,10 @@
+.video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.demo-vid {
+    margin-top: 50px;
+}
