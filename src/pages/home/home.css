@@ -53,10 +53,6 @@
     font-weight: bolder;
 }
 
-.learn-more {
-    margin-top: 20px;
-}
-
 /* @media screen and (max-width: 600px) {
     #banner-image {
         position: absolute;
@@ -88,10 +84,10 @@
     .home .heading-container {
         position: static;
     }
-  
+
     #banner-image {
         position: static;
         max-width: 100%;
         margin-bottom: 30px;
     }
-  }
+}
