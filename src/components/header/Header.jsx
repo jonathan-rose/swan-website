@@ -16,17 +16,17 @@ export default function Header() {
               Home
             </Link>
           </li>
-          <li className="topListItem">
+          {/* <li className="topListItem">
             <Link className="link" to="/about">
               About
             </Link>
-          </li>
+          </li> */}
           <li className="topListItem">
             <Link className="link" to="/video">
-              Video
+              What We Do
             </Link>
           </li>
-          <li className="topListItem">
+          {/* <li className="topListItem">
             <Link className="link" to="/gallery">
               Gallery
             </Link>
@@ -35,7 +35,7 @@ export default function Header() {
             <Link className="link" to="/contact">
               Contact
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="topRight">
