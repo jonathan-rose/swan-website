@@ -1,0 +1,11 @@
+:root {
+    --SWAN-dark: 107, 0, 203;
+    --SWAN-medium: 152, 74, 220;
+    --SWAN-light: 183, 126, 229;
+    --SWAN-vlight: 194, 150, 235;
+}
+
+body {
+    margin: 0;
+    background-color: rgba(var(--SWAN-vlight), 0.5);
+}
