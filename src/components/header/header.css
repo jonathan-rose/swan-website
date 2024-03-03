@@ -24,7 +24,7 @@
 
 .topCenter {
     flex: 1;
-    max-width: 30%;
+    max-width: 60%;
 }
 
 .topRight {
@@ -41,12 +41,12 @@
 }
 
 .topListItem {
-    font-size: 22px;
+    font-size: 30px;
     font-weight: 300;
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .topList {
         display: block;
     }
