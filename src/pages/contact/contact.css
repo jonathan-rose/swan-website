@@ -10,16 +10,28 @@ section {
     flex: 1;
 }
 
-#contact-details {
+#contact-items {
+    width: auto;
+}
+
+#contact-list {
+    list-style-type: none;
+}
+
+#contact-list p {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* #contact-details {
     position: relative;
     top: 30%;
     width: 50%;
     height: 50%;
     background-color: white;
     padding: 10px;
-    /* border: 1px solid rgba(var(--SWAN-dark)); */
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
-}
+} */
 
 #map {
     align-items: unset;
