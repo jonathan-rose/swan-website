@@ -72,6 +72,7 @@
 #address-block {
     display: flex;
     flex-direction: row;
+    margin-bottom: 0px;
 }
 
 #address-text {
@@ -86,7 +87,7 @@
 }
 
 #map {
-    width: 100%;
+    width: 90%;
     height: 100%;
 }
 
@@ -114,3 +115,4 @@
         margin-bottom: 50px;
     }
 }
+
