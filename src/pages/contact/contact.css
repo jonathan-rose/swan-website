@@ -1,10 +1,18 @@
-.contact-header {
+#heading-span {
+    width: 100%;
+    text-align: right;
+}
+
+.contact-heading {
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .contact-container {
     display: flex;
     flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .contact-section {
@@ -43,6 +51,10 @@
     font-size: inherit;
 }
 
+#contact-info {
+    margin-right: 10px;
+}
+
 #contact-items {
     display: flex;
     flex-direction: column;
@@ -58,6 +70,13 @@
     flex-direction: column !important;
 }
 
+#map-section {
+    height: auto;
+    align-items: start;
+    margin-left: 10px;
+}
+
 #map {
-    align-items: unset;
+    width: 75%;
+    height: 100%;
 }
