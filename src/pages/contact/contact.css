@@ -1,27 +1,33 @@
-h2 {
+.contact-header {
     margin-bottom: 30px;
 }
 
-.container {
+.contact-container {
     display: flex;
     flex-direction: row;
 }
 
-section {
+.contact-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex: 1;
 }
 
-section span {
+.contact-span {
     flex-direction: row;
     margin-bottom: 20px;
 }
 
-section span i {
+.contact-span i {
     width: 20px;
     text-align: center;
+}
+
+.contact-span p {
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 10px;
 }
 
 #contact-items {
@@ -38,22 +44,6 @@ section span i {
     display: flex;
     flex-direction: column !important;
 }
-
-section p {
-    display: inline-block;
-    margin-top: 0px;
-    margin-left: 10px;
-}
-
-/* #contact-details {
-    position: relative;
-    top: 30%;
-    width: 50%;
-    height: 50%;
-    background-color: white;
-    padding: 10px;
-    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
-} */
 
 #map {
     align-items: unset;
