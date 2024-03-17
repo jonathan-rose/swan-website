@@ -4,22 +4,26 @@ export default function Contact() {
   return (
     <div class="container">
       <section id="contact-info">
+        <h2>Contact Us</h2>
         <div id="contact-items">
-          <h2>Contact Us</h2>
-          <ul id="contact-list">
-            <li>
-              <i class="fa-solid fa-mobile-screen"></i>
-              <p>01934 123 456</p>
-            </li>
-            <li>
-              <i class="fa-solid fa-envelope"></i>
-              <p>sample@swanwsm.org</p>
-            </li>
-            <li>
-              <i class="fa-solid fa-location-dot"></i>
-              <p>Sample Address</p>
-            </li>
-          </ul>
+          <span>
+            <i class="fa-solid fa-mobile-screen"></i>
+            <p>01934 123 456</p>
+          </span>
+          <span>
+            <i class="fa-solid fa-envelope"></i>
+            <p>sample@swanwsm.org</p>
+          </span>
+          <span id="address-block">
+            <i class="fa-solid fa-location-dot"></i>
+            <span id="address-text">
+              <p>Line One</p>
+              <p>Line Two</p>
+              <p>Line Three</p>
+              <p>Line Four</p>
+              <p>Line Five</p>
+            </span>
+          </span>
         </div>
       </section>
       <section id="map">

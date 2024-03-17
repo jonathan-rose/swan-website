@@ -1,3 +1,7 @@
+h2 {
+    margin-bottom: 30px;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -10,16 +14,34 @@ section {
     flex: 1;
 }
 
+section span {
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+section span i {
+    width: 20px;
+    text-align: center;
+}
+
 #contact-items {
-    width: auto;
+    display: flex;
+    flex-direction: column;
 }
 
-#contact-list {
-    list-style-type: none;
+#address-block {
+    display: flex;
+    flex-direction: row;
 }
 
-#contact-list p {
+#address-text {
+    display: flex;
+    flex-direction: column !important;
+}
+
+section p {
     display: inline-block;
+    margin-top: 0px;
     margin-left: 10px;
 }
 
