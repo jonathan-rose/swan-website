@@ -17,7 +17,7 @@ export default function Video() {
         <div className='player-wrapper'>
             <ReactPlayer
                 className='demo-vid'
-                url='videos/eval2023.mp4'
+                url='videos/eval2023-c.mp4'
                 width='100%'
                 height='100%'
                 controls={true}
