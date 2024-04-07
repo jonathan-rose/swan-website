@@ -1,15 +1,7 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import './home.css'
-import Logo from '../../components/logo/Logo'
 
 export default function Home() {
-  useEffect(() => {
-    //Get the height of the header element
-    const headerHeight = document.getElementById('header').offsetHeight;
-    document.documentElement.style.setProperty('--headerHeight', headerHeight + 'px');
-  }, []);
-
   return (
     <>
       <div className="home">
