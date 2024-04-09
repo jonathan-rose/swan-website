@@ -42,7 +42,7 @@ export default function Header() {
       <SocialBtn 
           faIcon="facebook"
           faSize="5x"
-          link="https:/www.facebook.com/SWAN.WSM/"
+          link="https://www.facebook.com/SWAN.WSM/"
           displayText="Facebook"
           showText={false}
         />
