@@ -4,6 +4,7 @@ import Video from "./pages/video/Video";
 import Contact from "./pages/contact/Contact";
 import Gallery from "./pages/gallery/Gallery";
 import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 import './app.css';
@@ -27,6 +28,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
